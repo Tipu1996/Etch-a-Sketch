@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Roboto, sans-serif;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+}
+
+.rowContainer {
+	display: flex;
+	text-align: center;
+}
+
+.rowContainer > div {
+	flex-grow: 1;
+}
+
+.rowContainer > div:hover {
+	background-color: rgb(170, 74, 68);
+}
+
+.box {
+	border: 1px solid black;
+}
+
+.askGridSize {
+	text-align: center;
+}
